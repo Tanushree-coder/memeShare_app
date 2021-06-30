@@ -15,7 +15,6 @@ class UserActivity : AppCompatActivity() {
         binding = ActivityUserBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-            val intent=getIntent()
             val name = intent.getStringExtra("name")
             val phone = intent.getStringExtra("phone")
             val country = intent.getStringExtra("country")

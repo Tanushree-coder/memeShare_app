@@ -1,5 +1,4 @@
 package com.example.newproject
-//import kotlinx.android.synthetic.main.activity_main.*
 
 data class User(
 var name:String,
