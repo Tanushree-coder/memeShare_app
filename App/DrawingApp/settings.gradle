@@ -1,0 +1,2 @@
+rootProject.name = "DrawingApp"
+include ':app'
